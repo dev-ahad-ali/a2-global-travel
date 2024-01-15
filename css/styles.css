@@ -1,0 +1,84 @@
+/* Common Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  color: #5a5a5d;
+  text-transform: capitalize;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+  border-radius: 16px;
+}
+:root {
+  --theme-color: #ff5400;
+}
+.common-wrap {
+  max-width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.theme-text {
+  color: #ff5400;
+}
+.section-padding {
+  padding: 100px 0;
+}
+.section-title {
+  max-width: 644px;
+  margin: 0 auto;
+  text-align: center;
+}
+.section-title p {
+  margin-top: 24px;
+}
+/* Common Styles */
+/* Typography */
+
+/* font-family: 'Mulish', sans-serif;
+font-family: 'Inter', sans-serif;
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 800;
+  color: #131318;
+}
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 32px;
+}
+h5 {
+  font-size: 28px;
+}
+h6 {
+  font-size: 24px;
+}
+/* Typography */
+/* Desktop Style Beginning ---------------> */
+
+/* Desktop Style End ---------------> */
