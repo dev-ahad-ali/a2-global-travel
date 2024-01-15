@@ -32,7 +32,7 @@ img {
   color: #ff5400;
 }
 .section-padding {
-  padding: 100px 0;
+  padding-top: 100px;
 }
 .section-title {
   max-width: 644px;
@@ -48,15 +48,15 @@ img {
   background-position: center center;
 }
 .btn {
-  max-width: 174px;
+  width: 174px;
   height: 52px;
   border: 0;
   border-radius: 8px;
   background-color: var(--theme-color);
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 26px;
   font-family: "Mulish", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   color: #ffffff;
   display: flex;
   justify-content: center;
@@ -87,6 +87,7 @@ h1 {
 }
 h2 {
   font-size: 40px;
+  line-height: 46px;
 }
 h3 {
   font-size: 36px;
@@ -170,7 +171,34 @@ header {
   font-family: "Mulish", sans-serif;
   color: rgba(19, 19, 24, 0.5);
 }
+.search .btn {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+}
 /* Banner Style End */
+/* PopularTour Style Beginning */
+.popular-tour-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.popular-tour-text {
+  max-width: 578px;
+}
+.popular-tour-text p {
+  margin-top: 24px;
+}
+.popular-tour-text ul {
+  margin: 24px 0 0 25px;
+}
+.popular-tour-text .btn {
+  margin-top: 32px;
+}
+.popular-tour-image img {
+  width: 100%;
+}
+/* PopularTour Style End */
 
 /* Desktop Style End ---------------> */
 
@@ -179,13 +207,17 @@ header {
   body {
     font-size: 14px;
   }
+  .section-padding {
+    padding-top: 24px;
+  }
   h1 {
     font-size: 22px;
     line-height: 28px;
     color: #ffffff;
   }
   h2 {
-    font-size: 40px;
+    font-size: 20px;
+    line-height: 26px;
   }
   h3 {
     font-size: 22px;
@@ -265,10 +297,25 @@ header {
     max-width: 100%;
   }
   .search .btn {
-    max-width: 100%;
+    width: 100%;
   }
 
   /* Banner Style End */
+  /* PopularTour Style Beginning */
+  .popular-tour-content {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .popular-tour-text p {
+    margin-top: 16px;
+  }
+  .popular-tour-text ul {
+    margin: 16px 0 0 25px;
+  }
+  .popular-tour-text .btn {
+    margin-top: 24px;
+  }
+  /* PopularTour Style End */
 }
 /* Mobile Style End ---------------> */
 
