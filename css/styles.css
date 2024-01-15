@@ -80,5 +80,119 @@ h6 {
 }
 /* Typography */
 /* Desktop Style Beginning ---------------> */
+/* Header Style Beginning */
+header {
+  padding: 50px 0;
+}
+.header-content {
+  display: grid;
+  grid-template-columns: 305px 1fr;
+  align-items: center;
+  gap: 10px;
+}
+.logo {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.main-nav ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.main-nav li {
+  margin: 0 22px;
+}
+.main-nav li a {
+  font-size: 18px;
+  color: #424247;
+}
+.main-nav li a:hover {
+  font-weight: 700;
+  color: var(--theme-color);
+}
+.phone-nav {
+  display: none;
+}
+/* Header Style End */
 
 /* Desktop Style End ---------------> */
+
+/* Mobile Style Beginning ---------------> */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 64px;
+    color: #ffffff;
+  }
+  h2 {
+    font-size: 40px;
+  }
+  h3 {
+    font-size: 22px;
+  }
+  h4 {
+    font-size: 32px;
+  }
+  h5 {
+    font-size: 28px;
+  }
+  h6 {
+    font-size: 24px;
+  }
+  /* Header Style Beginning */
+  header {
+    padding: 18px 0;
+  }
+  .header-content {
+    display: block;
+  }
+  .logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    gap: 10px;
+  }
+  .logo img {
+    width: 30px;
+  }
+  .phone-nav {
+    display: block;
+  }
+  .hamburger-menu {
+    display: block;
+    width: 17px;
+    height: 2px;
+    background-color: #131318;
+    position: relative;
+  }
+  .hamburger-menu::after {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    background-color: #131318;
+    left: 0;
+    top: 6px;
+  }
+  .hamburger-menu::before {
+    content: "";
+    position: absolute;
+    width: 17px;
+    height: 2px;
+    background-color: #131318;
+    left: 0;
+    top: -6px;
+  }
+  .main-nav {
+    display: none;
+  }
+  /* Header Style End */
+}
+/* Mobile Style End ---------------> */
+
+/* Tablet Style Beginning ---------------> */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+}
+/* Tablet Style End ---------------> */
