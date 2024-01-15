@@ -42,6 +42,27 @@ img {
 .section-title p {
   margin-top: 24px;
 }
+.bg-style {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.btn {
+  max-width: 174px;
+  height: 52px;
+  border: 0;
+  border-radius: 8px;
+  background-color: var(--theme-color);
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
 /* Common Styles */
 /* Typography */
 
@@ -61,6 +82,7 @@ h6 {
 }
 h1 {
   font-size: 64px;
+  line-height: 70px;
   color: #ffffff;
 }
 h2 {
@@ -115,13 +137,51 @@ header {
   display: none;
 }
 /* Header Style End */
+/* Banner Style Beginning */
+.banner-inner {
+  min-height: 500px;
+  border-radius: 16px;
+  text-align: center;
+  padding: 0 20px;
+  padding-top: 106px;
+}
+.banner-title p {
+  color: #ffffff;
+}
+.search {
+  max-width: 840px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  margin-top: 48px;
+}
+.search-select {
+  max-width: 174px;
+  height: 52px;
+  padding: 16px;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Mulish", sans-serif;
+  color: rgba(19, 19, 24, 0.5);
+}
+/* Banner Style End */
 
 /* Desktop Style End ---------------> */
 
 /* Mobile Style Beginning ---------------> */
 @media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
   h1 {
-    font-size: 64px;
+    font-size: 22px;
+    line-height: 28px;
     color: #ffffff;
   }
   h2 {
@@ -189,10 +249,33 @@ header {
     display: none;
   }
   /* Header Style End */
+  /* Banner Style Beginning */
+  .banner-inner {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+  .banner-title p {
+    margin-top: 8px;
+  }
+  .search {
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 32px;
+  }
+  .search-select {
+    max-width: 100%;
+  }
+  .search .btn {
+    max-width: 100%;
+  }
+
+  /* Banner Style End */
 }
 /* Mobile Style End ---------------> */
 
 /* Tablet Style Beginning ---------------> */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  .main-nav li {
+    margin: 0 10px;
+  }
 }
 /* Tablet Style End ---------------> */
