@@ -299,6 +299,47 @@ header {
   margin-top: 16px;
 }
 /* Why Us Style End */
+/* Deals Style Beginning */
+.deals-row {
+  min-height: 500px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.deals-row:nth-child(2n) {
+  justify-content: flex-end;
+}
+.deals-card {
+  max-width: 580px;
+  padding: 50px 77px 50px 50px;
+  margin: 0 56px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 16px;
+}
+.booking-details {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+.booking-info {
+  display: flex;
+  gap: 8px;
+}
+.deals-card-text {
+  margin: 24px 0;
+}
+.deals-card-text p {
+  margin-top: 16px;
+}
+.price {
+  display: block;
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 26px;
+}
+/* Deals Style End */
 /* Blog Style Beginning */
 .blog-content {
   display: grid;
@@ -405,7 +446,9 @@ input[type="email"] {
 /* Newsletter Style End */
 /* Footer Style Beginning */
 footer {
+  margin-top: 100px;
   padding: 100px 0;
+  background-color: rgba(19, 19, 24, 0.05);
 }
 .footer-content {
   text-align: center;
@@ -608,6 +651,41 @@ footer {
     margin-top: 16px;
   }
   /* Why Us Style End */
+  /* Deals Style Beginning */
+  .deals-row {
+    align-items: flex-end;
+    margin-top: 16px;
+    padding-bottom: 16px;
+    justify-content: center;
+  }
+  .deals-row:nth-child(2n) {
+    justify-content: center;
+  }
+  .deals-card {
+    padding: 24px;
+    margin: 0 16px;
+  }
+  .booking-details {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .deals-card-text {
+    margin: 12px 0 8px;
+  }
+  .deals-card-text p {
+    margin-top: 8px;
+  }
+  .price {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .deals-card .btn {
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+  }
+  /* Deals Style End */
   /* Blog Style Beginning */
   .blog-content {
     grid-template-columns: repeat(1, 1fr);
@@ -657,6 +735,7 @@ footer {
   /* Newsletter Style End */
   /* Footer Style Beginning */
   footer {
+    margin-top: 34px;
     padding: 34px 0;
   }
   .footer-content {
