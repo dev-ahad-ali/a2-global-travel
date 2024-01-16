@@ -750,12 +750,122 @@ footer {
   }
   /* Footer Style End */
 }
+/* Mobile Wide Screen -------> */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  /* Newsletter */
+  .save-up {
+    bottom: 72px;
+    right: 0;
+  }
+  /* Newsletter */
+}
 /* Mobile Style End ---------------> */
 
 /* Tablet Style Beginning ---------------> */
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  h2 {
+    font-size: 34px;
+  }
+  h3 {
+    font-size: 30px;
+  }
+  h5 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  h6 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+  .section-padding {
+    padding-top: 50px;
+  }
+  .section-title p {
+    margin-top: 14px;
+  }
+  /* Header */
+  header {
+    padding: 25px 0;
+  }
+  .header-content {
+    grid-template-columns: 280px 1fr;
+  }
   .main-nav li {
     margin: 0 10px;
   }
+  /* Header */
+  /* Popular Tour */
+  .popular-tour-content {
+    align-items: center;
+  }
+  .popular-tour-text {
+    max-width: 350px;
+  }
+  .popular-tour-text p {
+    margin-top: 5px;
+  }
+  .popular-tour-text ul {
+    margin: 10px 0 0 25px;
+  }
+  .popular-tour-text .btn {
+    margin-top: 12px;
+  }
+  .popular-tour-image img {
+    height: auto;
+  }
+  /* Popular Tour */
+  /* Destination */
+  .destination-gallery {
+    grid-template-areas:
+      "img-1 img-1 img-1 img-2 img-2 img-2"
+      "img-3 img-3 img-4 img-4 img-5 img-5"
+      "img-6 img-6 img-6 img-7 img-7 img-7";
+    gap: 15px;
+  }
+  /* Destination */
+  /* Deals */
+  .deals-row {
+    justify-content: center;
+  }
+  .deals-row:nth-child(2n) {
+    justify-content: center;
+  }
+  /* Deals */
+  /* Blog */
+  .blog-text p {
+    margin-top: 6px;
+  }
+  .blog-text ul li {
+    margin-top: 5px;
+  }
+  .blog-text .btn {
+    margin-top: 10px;
+  }
+  /* Blog */
+  /* Newsletter */
+  .newsletter-content {
+    gap: 15px;
+  }
+  .newsletter-form {
+    padding: 24px;
+  }
+  .save-up {
+    width: 46%;
+    bottom: 33px;
+    right: 5px;
+    padding: 10px;
+  }
+  .save-up a {
+    font-size: 10px;
+  }
+  .save-up h4 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* Newsletter */
 }
 /* Tablet Style End ---------------> */
