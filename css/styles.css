@@ -298,6 +298,47 @@ input[type="email"] {
   color: #ffffff;
 }
 /* Newsletter Style End */
+/* Footer Style Beginning */
+footer {
+  padding: 100px 0;
+}
+.footer-content {
+  text-align: center;
+  max-width: 872px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(19, 19, 24, 0.1);
+  padding-bottom: 50px;
+}
+.footer-content p {
+  margin-top: 16px;
+}
+.footer-content .logo {
+  justify-content: center;
+}
+.socials {
+  margin-top: 32px;
+}
+.socials ul {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  align-items: center;
+  list-style: none;
+}
+.socials img {
+  border-radius: 0;
+}
+.copyright {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+  color: #131318;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+/* Footer Style End */
 
 /* Desktop Style End ---------------> */
 
@@ -472,6 +513,21 @@ input[type="email"] {
     font-size: 14px;
   }
   /* Newsletter Style End */
+  /* Footer Style Beginning */
+  footer {
+    padding: 34px 0;
+  }
+  .footer-content {
+    padding-bottom: 24px;
+  }
+  .socials {
+    margin-top: 16px;
+  }
+  .copyright {
+    margin-top: 24px;
+    font-size: 14px;
+  }
+  /* Footer Style End */
 }
 /* Mobile Style End ---------------> */
 
