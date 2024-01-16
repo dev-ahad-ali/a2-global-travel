@@ -50,7 +50,7 @@ img {
 .btn {
   width: 174px;
   height: 52px;
-  border: 0;
+  border: transparent;
   border-radius: 8px;
   background-color: var(--theme-color);
   font-size: 20px;
@@ -62,6 +62,13 @@ img {
   justify-content: center;
   align-items: center;
   gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.btn:hover {
+  border: 1px solid var(--theme-color);
+  background-color: transparent;
+  color: var(--theme-color);
 }
 /* Common Styles */
 /* Typography */
@@ -338,6 +345,14 @@ header {
   font-size: 20px;
   font-weight: 800;
   line-height: 26px;
+}
+.see-more {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+}
+.see-more .btn {
+  width: 200px;
 }
 /* Deals Style End */
 /* Blog Style Beginning */
@@ -727,6 +742,9 @@ footer {
     width: 130px;
     height: 40px;
     font-size: 18px;
+  }
+  .see-more {
+    margin-top: 16px;
   }
   /* Deals Style End */
   /* Blog Style Beginning */
